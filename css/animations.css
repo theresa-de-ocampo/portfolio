@@ -1,0 +1,18 @@
+[data-aos="show-bar"] {
+	transform: scaleX(0);
+	transform-origin: left;
+	transition-property: transform;
+}
+
+[data-aos="show-bar"].aos-animate {
+	transform: scaleX(1);
+}
+
+[data-aos="show-exact-value"] {
+	opacity: 0;
+	transition-property: opacity;
+}
+
+[data-aos="show-exact-value"].aos-animate {
+	opacity: 1;
+}

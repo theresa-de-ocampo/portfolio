@@ -1,0 +1,108 @@
+nav {
+	font-family: "Amatic SC";
+	font-weight: bold;
+	font-size: 25px;
+	width: 100%;
+	text-align: center;
+	height: 50px;
+	line-height: 50px;
+	position: fixed;
+	z-index: 20;
+	top: 0;
+	background-color: white;
+	background-image: linear-gradient(315deg, white 0%, var(--hawkes-blue) 74%);
+	box-shadow: 0 4px 2px -2px gray;
+}
+
+nav li {
+	list-style-type: none;
+	display: inline-block;
+	width: 120px;
+	margin: 0 10px;
+}
+
+nav a,
+.fa-bars {
+	color: var(--california-gold);
+}
+
+nav a.active {
+	color: var(--cerulean);
+	text-decoration: underline;
+}
+
+nav a.active .border {
+	display: none;
+}
+
+nav .border {
+	transition: 0.6s;
+	margin: 0 3px;
+	display: inline-block;
+	color: black;
+}
+
+nav li:hover .border {
+	margin: 0 8px;
+	font-weight: bold;
+	font-family: Arial;
+}
+
+#check-menu {
+	display: none;
+}
+
+.menu-button {
+	display: none;
+}
+
+.menu-button:hover {
+	background-color: var(--california-gold);
+}
+
+.menu-button:hover .menu-lines,
+.menu-button:hover .menu-lines::before,
+.menu-button:hover .menu-lines::after {
+	background-color: white;
+}
+
+.menu-lines,
+.menu-lines::before,
+.menu-lines::after {
+	width: 30px;
+	height: 5px;
+	background-color: var(--california-gold);
+	border-radius: 5px;
+	box-shadow: 0 2px 5px gray;
+	transition: all 0.5s ease-in-out;
+}
+
+.menu-lines::before,
+.menu-lines::after {
+	content: "";
+	position: absolute;
+	display: block;
+}
+
+.menu-lines::before {
+	transform: translateY(-10px);
+}
+
+.menu-lines::after {
+	transform: translateY(10px);
+}
+
+#check-menu:checked ~ label > .menu-lines {
+	transform: translateX(-50px);
+	background-color: transparent;
+	box-shadow: none;
+}
+
+#check-menu:checked ~ label .menu-lines::before {
+	transform: rotate(45deg) translate(35px, -35px);
+	box-shadow: none;
+}
+
+#check-menu:checked ~ label .menu-lines::after {
+	transform: rotate(-45deg) translate(35px, 35px);
+}

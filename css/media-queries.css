@@ -1,0 +1,368 @@
+@media screen and (min-width: 1281px) {
+	/*section {
+		background-color: blue;
+	}*/
+
+	#skills .grid-wrapper {
+		grid-gap: 70px 100px;
+		margin-left: 10vw;
+		margin-right: 10vw;
+	}
+}
+
+@media screen and (max-width: 1200px) {
+	/*section {
+		background-color: red;
+	}*/
+
+	#projects img,
+	#projects article .content {
+		height: 420px;
+	}
+}
+
+@media screen and (max-width: 1025px) {
+	/*section {
+		background-color: yellow;
+	}*/
+
+	#profile-pic-pane {
+		width: 35vw;
+	}
+
+	#profile-pic-pane img {
+		padding: 20px;
+	}
+
+	#skills .grid-wrapper {
+		margin-left: 5vw;
+		margin-right: 5vw;
+	}
+
+	#skills .grid-wrapper > div {
+		padding: 50px 25px;
+	}
+
+	#projects h3 {
+		font-size: 25px;
+	}
+}
+
+@media screen and (max-width: 882px) {
+	/*section {
+		background-color: crimson;
+	}*/
+
+	#home {
+		flex-direction: column;
+	}
+
+	#profile-pic-pane {
+		order: 1;
+		width: 50vw;
+		margin-top: calc(50px + 3vh);
+	}
+
+	#profile-pic-pane img {
+		width: inherit;
+	}
+
+	#name-pane {
+		order: 2;
+		margin-bottom: calc(50px + 3vh);
+	}
+
+	#name {
+		display: none;
+	}
+
+	h1 {
+		display: block;
+	}
+
+	#name-pane .wrapper {
+		text-align: center;
+	}
+
+	#skills .grid-wrapper {
+		grid-template-columns: 1fr;
+		margin-left: 17vw;
+		margin-right: 17vw;
+	}
+
+	#skills .grid-wrapper > div {
+		padding: 50px;
+	}
+
+	#projects img,
+	#projects article .content {
+		height: 390px;
+	}
+
+	#projects img {
+		display: none;
+	}
+
+	#projects article > .content {
+		width: 100%;
+	}
+
+	#projects h3 {
+		font-size: 28px;
+	}
+}
+
+@media screen and (max-width: 769px) {
+	/*section {
+		background-color: aquamarine;
+	}*/
+
+	nav {
+		font-size: 22px;
+	}
+
+	nav li {
+		width: 100px;
+	}
+
+	#skills .grid-wrapper {
+		grid-template-columns: 1fr;
+		margin-left: 15vw;
+		margin-right: 15vw;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	/*section {
+		background-color: brown;
+	}*/
+
+	.fa-bars {
+		display: block;
+	}
+
+	.menu-button {
+		display: block;
+		float: right;
+		margin-right: 5vw;
+		width: 50px;
+		height: 40px;
+		position: relative;
+		top: 50%;
+		transform: translateY(-50%);
+		cursor: pointer;
+		transition: all 0.5s ease-in-out;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		border-radius: 5px;
+	}
+
+	nav ul {
+		background-image: linear-gradient(to bottom, var(--hawkes-blue), var(--california-gold));
+		box-shadow: -15px 10px 15px 5px rgba(0, 0, 0, 0.7);
+		height: calc(100vh - 50px);
+		margin-right: 0;
+		position: fixed;
+		right: -100%;
+		top: 50px;
+		transition: all 0.5s;
+		width: 50%;
+		border: 1px dotted black;
+		border-radius: 10px 0 0 10px;
+	}
+
+	nav ul li {
+		display: block;
+		width: 80%;
+		margin: 7.5vh auto;
+	}
+
+	nav ul li a {
+		padding: 7px 25px;
+		font-weight: bold;
+		font-size: 30px;
+		border-radius: 	10px;
+		transition: 0.5s;
+		color: black;
+	}
+
+	nav .border {
+		display: none;
+	}
+
+	nav ul li a:hover {
+		background-color: black;
+		color: white;
+	}
+
+	#check-menu:checked ~ ul {
+		right: 0;
+	}
+
+	#skills .grid-wrapper {
+		grid-template-columns: 1fr;
+		margin-left: 10vw;
+		margin-right: 10vw;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	/*section {
+		background-color: orchid;
+	}*/
+
+	h3 {
+		font-size: 16px;
+	}
+
+	h4 {
+		font-size: 14px;
+	}
+
+	#skills img {
+		width: 50px;
+	}
+
+	#skills .grid-wrapper > div {
+		padding: 35px;
+	}
+
+	#projects img,
+	#projects article .content {
+		height: 420px;
+	}
+
+	#projects h3 {
+		font-size: 25px;
+	}
+
+	#projects article .content footer a {
+		padding: 5px 18px;
+	}
+}
+
+@media screen and (max-width: 481px) {
+	/*section {
+		background-color: lightgreen;
+	}*/
+
+	nav ul {
+		width: 100%;
+		box-shadow: none;
+		border: none;
+		border-top: 1px dotted black;
+		border-radius: 0;
+	}
+
+	#profile-pic-pane {
+		width: 70vw;
+	}
+
+	#profile-pic-pane img {
+		padding: 15px;
+	}
+
+	h1 {
+		margin-top: 10px;
+	}
+
+	#skills .progress-line .tail,
+	#skills .progress-line .bubble {
+		display: none;
+	}
+
+	#projects article .content {
+		height: 450px;
+	}
+
+	#projects .content h3 {
+		font-size: 20px !important;
+	}
+
+	#projects article .content p {
+		margin: 5px 0;
+	}
+
+	#projects article .content footer {
+		flex-direction: column;
+		align-content: center;
+		align-items: center;
+	}
+
+	#projects article .content footer a:not(:first-of-type) {
+		margin-left: 0;
+	}
+
+	#projects article .content footer {
+		margin-top: 10px;
+	}
+
+	#projects article .content footer a {
+		padding: 5px 20px;
+		margin: 5px 0;
+		font-size: 14px;
+	}
+}
+
+@media screen and (max-width: 430px) {
+	p:not(.description) {
+		display: none;
+	}
+
+	#projects article .content footer a {
+		font-size: 16px;
+	}
+}
+
+@media screen and (max-width: 350px) {
+	#projects article .content {
+		height: 550px;
+	}
+
+	#projects h3 {
+		font-size: 14px !important;
+	}
+
+	#projects article .content footer a {
+		font-size: 14px;
+	}
+}
+
+/* Galaxy Fold */
+@media screen and (max-width: 281px) {
+	#projects article .content {
+		height: 600px;
+	}
+}
+
+@media screen and (max-height: 575px) and (max-width: 700px) {
+	section {
+		background-color: yellow;
+	}
+
+	nav ul li {
+		margin: 6.5vh auto;
+	}
+}
+
+@media screen and (max-height: 500px) and (max-width: 700px) {
+	section {
+		background-color: lightblue;
+	}
+
+	nav ul li {
+		margin: 5.5vh auto;
+	}
+
+	nav ul li a {
+		font-size: 25px;
+	}
+}
+
+@media screen and (max-height: 450px) and (max-width: 700px) {
+	nav ul li {
+		margin: 3vh auto;
+	}
+}

@@ -1,0 +1,205 @@
+#skills h3 {
+	text-transform: uppercase;
+	text-align: center;
+}
+
+#skills h3,
+#skills h4 {
+	color: white;
+}
+
+#skills .grid-wrapper {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 50px;
+	margin-left: 7vw;
+	margin-right: 7vw;
+}
+
+#skills .grid-wrapper > div {
+	padding: 50px;
+	position: relative;
+	border: 1px solid black;
+	background-color: var(--black-pearl);
+}
+
+#skills .grid-wrapper > div::before {
+	content: "";
+	position: absolute;
+	top: -2px;
+	left: -2px;
+	right: -2px;
+	bottom: -2px;
+	transform: skew(2deg, 2deg);
+	z-index: -5;
+}
+
+#skills .grid-wrapper > div:nth-child(1)::before {
+	background: linear-gradient(315deg, #ff0057, #e64a19);
+}
+
+#skills .grid-wrapper > div:nth-child(2)::before {
+	background: linear-gradient(315deg, #89ff00, #00bcd4);
+}
+
+#skills .grid-wrapper > div:nth-child(3)::before {
+	background: linear-gradient(315deg, #e91e63, #5d02ff);
+}
+
+#skills .grid-wrapper > div:nth-child(4)::before {
+	background: linear-gradient(315deg, #ff0000, #ffc107);
+}
+
+#skills .grid-wrapper > div:nth-child(5)::before {
+	background: linear-gradient(315deg, #2f4353, #d2ccc4);
+}
+
+#skills .grid-wrapper > div:nth-child(6)::before {
+	background: linear-gradient(315deg, #20EC7B, #C149FF);
+}
+
+#skills .grid-wrapper > div::after {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 50%;
+	height: 100%;
+	background: rgba(255, 255, 255, 0.05);
+	pointer-events: none;
+}
+
+#skills .skill {
+	display: flex;
+	gap: 20px;
+	margin: 20px 0;
+}
+
+#skills img {
+	width: 60px;
+	height: auto;
+}
+
+#skills .skill .details {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 100%;
+}
+
+#skills .skill .details h4,
+#skills .skill .details > div {
+	margin: 3px 0;
+}
+
+#skills .progress-line {
+	height: 10px;
+	width: 100%;
+	background: #f0f0f0;
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.5);
+	position: relative;
+	border-radius: 10px;
+}
+
+#skills .progress-line span {
+	height: 100%;
+	background: #6665ee;
+	position: absolute;
+	border-radius: 10px;
+}
+
+#html span {
+	width: 90%;
+}
+
+#css span {
+	width: 80%;
+}
+
+#javascript span {
+	width: 65%;
+}
+
+#php-c span {
+	width: 88%;
+}
+
+#java-python span {
+	width: 70%;
+}
+
+#cobol span {
+	width: 60%;
+}
+
+#jquery span {
+	width: 80%;
+}
+
+#laravel span {
+	width: 75%;
+}
+
+#bootstrap span {
+	width: 50%;
+}
+
+#mysql span {
+	width: 80%;
+}
+
+#git span {
+	width: 60%;
+}
+
+#wordpress span {
+	width: 40%;
+}
+
+#word-ppt span {
+	width: 90%;
+}
+
+#teams-onenote-outlook span {
+	width: 85%;
+}
+
+#excel-access span {
+	width: 50%;
+}
+
+#capture span {
+	width: 85%;
+}
+
+#photoshop span {
+	width: 60%;
+}
+
+#premiere-pro span {
+	width: 50%;
+}
+
+#skills .progress-line .tail {
+	position: absolute;
+	height: 0;
+	width: 0;
+	border: 7px solid transparent;
+	border-bottom-width: 0;
+	border-right-width: 0;
+	border-top-color: #838690;
+	right: 0;
+	top: -10px;
+}
+
+#skills .progress-line .bubble {
+	position: absolute;
+	right: 0;
+	top: -24px;
+	background-color: var(--aluminum);
+	color: #fff;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 1px 8px;
+	border-radius: 3px;
+}

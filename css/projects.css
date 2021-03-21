@@ -1,0 +1,113 @@
+#projects {
+	background-color: #fdfbec;
+	background-size: 40px 40px;
+	background-image: 
+		linear-gradient(to right, #fdf1a7 1px, transparent 1px), 
+		linear-gradient(to bottom, #fdf1a7 1px, transparent 1px);
+}
+
+.owl-carousel {
+	margin: 0 auto;
+	width: 80vw;
+	box-shadow: 0 0 15px 15px rgba(0, 0, 0, 0.2);
+	background-color: #fdfbec;
+	border-radius: 5px;
+}
+
+#projects article {
+	display: flex;
+}
+
+#public-bmms {
+	background-color: #00a5ff;
+}
+
+#admin-bmms {
+	background-color: #f5d23b;
+}
+
+#andrion {
+	background-color: #8ec832;
+}
+
+#dulao {
+	background-color: #f04b9a;
+}
+
+#graphs {
+	background-color: #4E4D4D;
+	background-color: #ED5D5D;
+	background-color: #FCC071;
+}
+
+#projects img,
+#projects article .content {
+	height: 390px;
+}
+
+#projects img {
+	width: 45%;
+	display: block;
+}
+
+#projects article .content {
+	width: 55%;
+	color: white;
+	padding: 25px 50px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+#projects article .content * {
+	color: white;
+}
+
+#projects article .content h3 {
+	font-size: 28px;
+	text-shadow: 1px 1px 2px var(--aluminum);
+	text-align: center;
+}
+
+#projects article .content p {
+	margin: 8px 0;
+	text-align: center;
+}
+
+#projects article .content p b {
+	color: var(--black-pearl);
+}
+
+#projects article .content p.description,
+#projects article .content p.colleague {
+	font-style: italic;
+}
+
+#projects article .content p.colleague > a {
+	text-decoration: underline;
+}
+
+#projects article .content footer {
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+}
+
+#projects article .content footer a {
+	padding: 7px 25px;
+	transition: 0.5s;
+	border: 1px solid black;
+	border-radius: 5px;
+	color: black;
+	display: inline-block;
+	text-align: center;
+}
+
+#projects article .content footer a:not(:first-of-type) {
+	margin-left: 10px;
+}
+
+#projects article .content footer a:hover {
+	background-color: black;
+	color: white;
+}
