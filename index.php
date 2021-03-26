@@ -9,6 +9,7 @@
 	<link rel="stylesheet" type="text/css" href="css/aos.css" />
 	<link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
 	<link rel="stylesheet" type="text/css" href="css/owl.theme.default.min.css">
+	<link rel="stylesheet" type="text/css" href="css/tingle.min.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css" />
 	<link rel="stylesheet" type="text/css" href="css/nav-bar.css" />
 	<link rel="stylesheet" type="text/css" href="css/home.css" />
@@ -38,6 +39,38 @@
 	?>
 
 	<section id="about">
+		<h4>Features</h4>
+			<ol>
+				<li>
+					Tables
+					<ul>
+						<li>Provision for printing.</li>
+						<li>Provision for exporting to csv.</li>
+					</ul>
+				</li>
+				<li>
+					Login & Account Management
+					<ul>
+						<li>Password update</li>
+						<li>Strong password requirement.</li>
+						<li>Only the master admin can create and revoke an account for the officers.</li>
+					</ul>
+				</li>
+				<li>
+					Dashboard
+					<ul>
+						<li>Population groupings</li>
+						<li>
+							Officials
+							<ul>
+								<li>List of current officials</li>
+								<li>Insert new cycle</li>
+								<li>Terminate an official</li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+			</ol>
 		<p>
 			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vestibulum, nunc eu lobortis pharetra, metus purus tristique eros, sed efficitur augue sapien et lacus. Praesent sed ultricies felis. Duis ligula mauris, consequat et mattis vitae, congue ac tortor. Integer hendrerit arcu in risus pellentesque, ac fringilla odio euismod. Quisque tincidunt, enim quis accumsan semper, elit neque aliquet lacus, vel pharetra nulla sem sit amet ligula. Praesent consectetur quam pharetra ex molestie maximus. Nam gravida euismod leo, sit amet interdum eros facilisis rhoncus. Morbi ac eleifend risus. Duis in dictum sapien. Duis fermentum eu leo ut lobortis. Donec non ipsum felis. Duis libero nunc, efficitur vitae efficitur a, condimentum at libero. Donec ac urna vel magna lobortis laoreet.
 		</p>
@@ -58,6 +91,7 @@
 	<script src="js/jquery-3.5.1.min.js"></script>
 	<script src="js/aos.min.js"></script>
 	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/tingle.min.js"></script>
 	<script src="js/all.js"></script>
 	<script src="js/home.js"></script>
 	<script src="js/projects.js"></script>
