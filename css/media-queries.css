@@ -11,6 +11,12 @@
 }
 
 @media screen and (max-width: 1200px) {
+	.modal h4 {
+		font-size: 30px;
+	}
+}
+
+@media screen and (max-width: 1200px) {
 	/*section {
 		background-color: red;
 	}*/
@@ -43,8 +49,19 @@
 		padding: 50px 25px;
 	}
 
-	#projects h3 {
-		font-size: 25px;
+	.modal .content {
+		margin: 20px 0 0 0;
+	}
+}
+
+@media screen and (max-width: 980px) {
+	/*section {
+		background-color: gray;
+	}*/
+
+	#projects img,
+	#projects article .content {
+		height: 440px;
 	}
 }
 
@@ -130,6 +147,18 @@
 		margin-left: 15vw;
 		margin-right: 15vw;
 	}
+
+	.modal h4 {
+		font-size: 32px;
+	}
+
+	.modal h5 {
+		font-size: 18px;
+	}
+
+	.modal .header .fas {
+		font-size: 24px;
+	}
 }
 
 @media screen and (max-width: 700px) {
@@ -206,6 +235,10 @@
 		margin-left: 10vw;
 		margin-right: 10vw;
 	}
+
+	.modal .panel {
+		padding-left: 10px;
+	}
 }
 
 @media screen and (max-width: 600px) {
@@ -231,7 +264,7 @@
 
 	#projects img,
 	#projects article .content {
-		height: 420px;
+		height: 450px;
 	}
 
 	#projects h3 {
@@ -240,6 +273,13 @@
 
 	#projects article .content footer a {
 		padding: 5px 18px;
+	}
+}
+
+/*Modal Default Mobile Size*/
+@media screen and (max-width: 540px) {
+	.tingle-modal--overflow {
+		padding-bottom: 0;
 	}
 }
 
@@ -335,12 +375,16 @@
 	#projects article .content {
 		height: 600px;
 	}
+
+	.tingle-modal-box__content {
+		padding: 0 0 10px 0;
+	}
 }
 
 @media screen and (max-height: 575px) and (max-width: 700px) {
-	section {
+	/*section {
 		background-color: yellow;
-	}
+	}*/
 
 	nav ul li {
 		margin: 6.5vh auto;
@@ -348,9 +392,9 @@
 }
 
 @media screen and (max-height: 500px) and (max-width: 700px) {
-	section {
+	/*section {
 		background-color: lightblue;
-	}
+	}*/
 
 	nav ul li {
 		margin: 5.5vh auto;

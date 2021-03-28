@@ -35,17 +35,27 @@ $(function() {
 	adminBmmsModal.setContent(`
 			<div id="admin-bmms-modal">
 				<h4>Features</h4>
-
 				<div class="content">
 					<div class="header inactive">
 						<div class="fas fa-plus-circle"></div>
-						<h5>Login & Account Management</h5>
+						<h5>Account Management</h5>
 					</div><!-- .header -->
 					<div class="panel">
 						<ul>
 							<li>Password update</li>
 							<li>Strong password requirement</li>
 							<li>Only the master admin can create and revoke an account for the officers</li>
+						</ul>
+					</div><!-- .panel -->
+
+					<div class="header inactive">
+						<div class="fas fa-plus-circle"></div>
+						<h5>Tables</h5>
+					</div><!-- .header -->
+					<div class="panel">
+						<ul>
+							<li>Print</li>
+							<li>Export to CSV</li>
 						</ul>
 					</div><!-- .panel -->
 
@@ -83,11 +93,11 @@ $(function() {
 
 					<div class="header inactive">
 						<div class="fas fa-plus-circle"></div>
-						<h5>Household</h5>
+						<h5>HouseholdS</h5>
 					</div><!-- .header -->
 					<div class="panel">
 						<ul>
-							<li>Displays lists of residents</li>
+							<li>Displays lists of household</li>
 							<li>
 								Provision for copying the address (house number and street to clipboard) – used for filtering the list of residents based on where they live.
 							</li>
@@ -108,20 +118,116 @@ $(function() {
 						</ul>
 					</div><!-- .panel -->
 
+					<div class="header inactive">
+						<div class="fas fa-plus-circle"></div>
+						<h5>Posts</h5>
+					</div><!-- .header -->
+					<div class="panel">
+						<ul>
+							<li>Post a new article</li>
+							<li>Edit a published article</li>
+							<li>Unpublish an article</li>
+							<li>Every change made is reflected on the public site</li>
+						</ul>
+					</div><!-- .panel -->
 
+					<div class="header inactive">
+						<div class="fas fa-plus-circle"></div>
+						<h5>Archives</h5>
+					</div><!-- .header -->
+					<div class="panel">
+						<ul>
+							<li>Displays history of officers</li>
+							<li>
+								Displays list of archived residents
+								<ul>
+									<li>Restore archived resident</li>
+								</ul>
+							</li>
+							<li>Displays list of unoccupied units</li>
+							<li>Displays list of resolved blotter cases</li>
+							<li>View blotter case details</li>
+							<li>
+								Displays lists of unpublished posts
+								<ul>
+									<li>View an unpublished article</li>
+									<li>Restore a deleted post</li>
+								</ul>
+							</li>
+						</ul>
+					</div><!-- .panel -->
 				</div><!-- .content -->
 			</div><!-- #admin-bmms-modal -->
 		`);
 
 	let andrionModal = createModal("#andrion .details");
-	andrionModal.setContent(`<h4>Access</h4>`);
+	andrionModal.setContent(`
+			<div id="andrion-modal">
+				<h4>Features</h4>
+				<div class="content">
+					<div class="header inactive">
+						<div class="fas fa-plus-circle"></div>
+						<h5>Account Management</h5>
+					</div><!-- .header -->
+					<div class="panel">
+						<ul>
+							<li>Password update</li>
+							<li>Password recovery through Gmail</li>
+						</ul>
+					</div><!-- .panel -->
+
+					<div class="header inactive">
+						<div class="fas fa-plus-circle"></div>
+						<h5>Home</h5>
+					</div><!-- .header -->
+					<div class="panel">
+						<ul>
+							<li>Customer Details</li>
+							<li>
+								Rent Details
+								<ul>
+									<li>
+										Prevents a customer from renting an item if it is not available during the period that it will be rented <i>(similar to reservation)</i>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</div><!-- .panel -->
+
+					<div class="header inactive">
+						<div class="fas fa-plus-circle"></div>
+						<h5>Inventory</h5>
+					</div><!-- .header -->
+					<div class="panel">
+						<ul>
+							<li>Add new equipment per category <i>(Buffet Line, Dining Furniture, Flatware, etc)</i></li>
+							<li>Increase an existing items' quantity</li>
+							<li>
+								Decrease an existing items' quantity
+								<ul>
+									<li>Prompts for an <b>Equipment Incident Report</b> that is automatically mailed to the owner</li>
+								</ul>
+							</li>
+						</ul>
+					</div><!-- .panel -->
+
+					<div class="header inactive">
+						<div class="fas fa-plus-circle"></div>
+						<h5>Pick-Up Dates</h5>
+					</div><!-- .header -->
+					<div class="panel">
+						<ul>
+							<li>Prompts for an <b>Equipment Return Form</b></li>
+							<li>Prompts for an <b>Equipment Incident Report</b> if the customer was unable to return every rented item</li>
+						</ul>
+					</div><!-- .panel -->
+				</div><!-- .content -->
+			</div><!-- #andrion-modal -->
+		`);
 
 	$(".modal .header").on("click", function() {
-		/*$(".tingle-modal--overflow").css("overflow-y", "scroll");
-		$(".tingle-modal--overflow").css("overflow-y", "scroll");
-		$(".tingle-modal").checkOverflow();*/
-		adminBmmsModal.checkOverflow();
 		$header = $(this);
+		$icon = $header.children(".fas");
 		$panel = $header.next();
 		
 		if ($panel.css("max-height") != "0px") {
@@ -131,6 +237,8 @@ $(function() {
 			});
 			$header.removeClass("active");
 			$header.addClass("inactive");
+			$icon.removeClass("fa-minus-circle");
+			$icon.addClass("fa-plus-circle");
 		}
 		else {
 			$panel.css({
@@ -139,6 +247,8 @@ $(function() {
 			});
 			$header.removeClass("inactive");
 			$header.addClass("active");
+			$icon.removeClass("fa-plus-circle");
+			$icon.addClass("fa-minus-circle");
 		}
 	});
 });
