@@ -15,6 +15,7 @@
 	<link rel="stylesheet" type="text/css" href="css/home.css" />
 	<link rel="stylesheet" type="text/css" href="css/skills.css" />
 	<link rel="stylesheet" type="text/css" href="css/projects.css" />
+	<link rel="stylesheet" type="text/css" href="css/about.css" />
 	<link rel="stylesheet" type="text/css" href="css/animations.css" />
 	<link rel="stylesheet" type="text/css" href="css/media-queries.css" />
 	<title>Theresa De Ocampo</title>
@@ -36,9 +37,10 @@
 		readfile("home.html");
 		readfile("skills.html");
 		readfile("projects.html");
+		readfile("about.html")
 	?>
 
-	<section id="about">
+	<section id="contact">
 		<h4>Features</h4>
 			<ol>
 				<li>
@@ -92,8 +94,10 @@
 	<script src="js/aos.min.js"></script>
 	<script src="js/owl.carousel.min.js"></script>
 	<script src="js/tingle.min.js"></script>
+	<script src="js/scramble.js"></script>
 	<script src="js/all.js"></script>
 	<script src="js/home.js"></script>
 	<script src="js/projects.js"></script>
+	<script src="js/about.js"></script>
 </body>
 </html>

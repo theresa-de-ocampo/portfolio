@@ -47,7 +47,7 @@
 }
 
 #skills .grid-wrapper > div:nth-child(4)::before {
-	background: linear-gradient(315deg, #ff0000, #ffc107);
+	background: linear-gradient(315deg, #ff0000, var(--amber));
 }
 
 #skills .grid-wrapper > div:nth-child(5)::before {
