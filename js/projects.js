@@ -93,7 +93,7 @@ $(function() {
 
 					<div class="header inactive">
 						<div class="fas fa-plus-circle"></div>
-						<h5>HouseholdS</h5>
+						<h5>Households</h5>
 					</div><!-- .header -->
 					<div class="panel">
 						<ul>
