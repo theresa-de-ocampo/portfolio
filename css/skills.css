@@ -128,7 +128,7 @@
 	width: 70%;
 }
 
-#cobol span {
+#cobol-c-sharp span {
 	width: 60%;
 }
 
@@ -136,7 +136,7 @@
 	width: 80%;
 }
 
-#laravel span {
+#cordova span {
 	width: 75%;
 }
 
@@ -152,8 +152,8 @@
 	width: 60%;
 }
 
-#wordpress span {
-	width: 40%;
+#sql-server span {
+	width: 50%;
 }
 
 #word-ppt span {
