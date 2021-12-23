@@ -18,6 +18,10 @@
 	display: flex;
 }
 
+#book-seek {
+	background-color: #E35856;
+}
+
 #public-bmms {
 	background-color: #00a5ff;
 }
@@ -35,8 +39,6 @@
 }
 
 #graphs {
-	background-color: #4E4D4D;
-	background-color: #ED5D5D;
 	background-color: #FCC071;
 }
 
