@@ -1,8 +1,8 @@
 @media screen and (min-width: 1281px) {
 	/*section {
 		background-color: blue;
-	}*/
-
+	}
+*/
 	#skills .grid-wrapper {
 		grid-gap: 70px 100px;
 		margin-left: 10vw;
@@ -11,15 +11,13 @@
 }
 
 @media screen and (max-width: 1200px) {
-	.modal h4 {
-		font-size: 30px;
-	}
-}
-
-@media screen and (max-width: 1200px) {
 	/*section {
 		background-color: red;
 	}*/
+
+	.modal h4 {
+		font-size: 30px;
+	}
 
 	#projects img,
 	#projects article .content {
@@ -275,6 +273,10 @@
 	#personal-tags .tag {
 		font-size: 18px;
 	}
+
+	#social-buttons {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
 }
 
 @media screen and (max-width: 600px) {
@@ -432,6 +434,15 @@
 
 	#projects article .content footer a {
 		font-size: 14px;
+	}
+
+	#social-buttons {
+		grid-template-columns: 1fr 1fr;
+		position: static;
+		top: unset;
+		left: unset;
+		transform: unset;
+		justify-items: center;
 	}
 }
 
