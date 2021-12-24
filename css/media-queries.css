@@ -1,8 +1,4 @@
 @media screen and (min-width: 1281px) {
-	/*section {
-		background-color: blue;
-	}
-*/
 	#skills .grid-wrapper {
 		grid-gap: 70px 100px;
 		margin-left: 10vw;
@@ -11,10 +7,6 @@
 }
 
 @media screen and (max-width: 1200px) {
-	/*section {
-		background-color: red;
-	}*/
-
 	.modal h4 {
 		font-size: 30px;
 	}
@@ -26,10 +18,6 @@
 }
 
 @media screen and (max-width: 1025px) {
-	/*section {
-		background-color: yellow;
-	}*/
-
 	#profile-pic-pane {
 		width: 35vw;
 	}
@@ -53,10 +41,6 @@
 }
 
 @media screen and (max-width: 980px) {
-	/*section {
-		background-color: gray;
-	}*/
-
 	#projects img,
 	#projects article .content {
 		height: 440px;
@@ -84,10 +68,6 @@
 }
 
 @media screen and (max-width: 882px) {
-	/*section {
-		background-color: crimson;
-	}*/
-
 	#home {
 		flex-direction: column;
 	}
@@ -152,10 +132,6 @@
 }
 
 @media screen and (max-width: 769px) {
-	/*section {
-		background-color: aquamarine;
-	}*/
-
 	nav {
 		font-size: 22px;
 	}
@@ -184,10 +160,6 @@
 }
 
 @media screen and (max-width: 700px) {
-	/*section {
-		background-color: brown;
-	}*/
-
 	.fa-bars {
 		display: block;
 	}
@@ -280,10 +252,6 @@
 }
 
 @media screen and (max-width: 600px) {
-	/*section {
-		background-color: orchid;
-	}*/
-
 	h3 {
 		font-size: 16px;
 	}
@@ -331,7 +299,7 @@
 	}
 }
 
-/*Modal Default Mobile Size*/
+/* Modal Default Mobile Size */
 @media screen and (max-width: 540px) {
 	.tingle-modal--overflow {
 		padding-bottom: 0;
@@ -343,10 +311,6 @@
 }
 
 @media screen and (max-width: 481px) {
-	/*section {
-		background-color: lightgreen;
-	}*/
-
 	nav ul {
 		width: 100%;
 		box-shadow: none;
@@ -458,20 +422,12 @@
 }
 
 @media screen and (max-height: 575px) and (max-width: 700px) {
-	/*section {
-		background-color: yellow;
-	}*/
-
 	nav ul li {
 		margin: 6.5vh auto;
 	}
 }
 
 @media screen and (max-height: 500px) and (max-width: 700px) {
-	/*section {
-		background-color: lightblue;
-	}*/
-
 	nav ul li {
 		margin: 5.5vh auto;
 	}
