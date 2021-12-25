@@ -1,7 +1,9 @@
 $("#profile-pic-pane").on("mouseenter", function() {
-	$("#profile-pic-pane img").attr("src", "img/home/quote.png");
+	$("#profile-picture").css("display", "none");
+	$("#quote").css("display", "inline");
 });
 
 $("#profile-pic-pane").on("mouseleave", function() {
-	$("#profile-pic-pane img").attr("src", "img/home/profile.png");
+	$("#quote").css("display", "none");
+	$("#profile-picture").css("display", "inline");
 });

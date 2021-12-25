@@ -70,6 +70,10 @@ h1 {
 	width: inherit;
 }
 
+#quote {
+	display: none;
+}
+
 #profile-pic-pane span:nth-child(1) {
 	animation: clockwise 6s linear infinite;
 	border-radius: 38% 62% 63% 37% / 41% 44% 56% 59%;
