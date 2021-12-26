@@ -5,6 +5,10 @@
 	<meta name="author" content="Theresa De Ocampo" />
 	<meta name="description" content="ePortolio of Maria Theresa G. De Ocampo - a BSIT student from Naic, Cavite" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta property="og:title" content="Theresa De Ocampo" />
+	<meta property="og:type" content="website" />
+	<meta property="og:image" content="img/thumbnail.jpg" />
+	<meta property="og:url" content="http://theresa-de-ocampo.rf.gd/" />
 	<link rel="stylesheet" type="text/css" href="css/all.css" />
 	<link rel="stylesheet" type="text/css" href="css/aos.css" />
 	<link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
