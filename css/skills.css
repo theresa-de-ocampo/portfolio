@@ -109,15 +109,15 @@
 }
 
 #html span {
-	width: 90%;
+	width: 95%;
 }
 
 #css span {
-	width: 80%;
+	width: 90%;
 }
 
 #javascript span {
-	width: 65%;
+	width: 85%;
 }
 
 #php-c span {
@@ -136,12 +136,12 @@
 	width: 80%;
 }
 
-#cordova span {
+#chakra-react span {
 	width: 75%;
 }
 
-#bootstrap span {
-	width: 50%;
+#laravel span {
+	width: 60%;
 }
 
 #mysql span {

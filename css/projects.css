@@ -18,6 +18,10 @@
 	display: flex;
 }
 
+#loan-system {
+	background-color: #A9BCD0;
+}
+
 #book-seek {
 	background-color: #E35856;
 }
