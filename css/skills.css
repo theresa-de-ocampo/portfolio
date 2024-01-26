@@ -108,16 +108,16 @@
 	border-radius: 10px;
 }
 
-#html span {
+#javascript span {
 	width: 95%;
 }
 
-#css span {
-	width: 90%;
+#php span {
+	width: 85%;
 }
 
-#javascript span {
-	width: 85%;
+#python span {
+	width: 75%;
 }
 
 #php-c span {
