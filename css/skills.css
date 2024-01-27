@@ -120,51 +120,51 @@
 	width: 75%;
 }
 
-#php-c span {
+#react-nextjs span {
 	width: 88%;
 }
 
-#java-python span {
+#nodejs-express span {
 	width: 70%;
-}
-
-#cobol-c-sharp span {
-	width: 60%;
-}
-
-#jquery span {
-	width: 80%;
-}
-
-#chakra-react span {
-	width: 75%;
 }
 
 #laravel span {
 	width: 60%;
 }
 
-#mysql span {
+#tailwind span {
 	width: 80%;
 }
 
-#git span {
+#mobx-recoil span {
+	width: 75%;
+}
+
+#chakra span {
 	width: 60%;
 }
 
-#sql-server span {
+#postgres span {
+	width: 80%;
+}
+
+#mysql span {
+	width: 60%;
+}
+
+#sqlite span {
 	width: 50%;
 }
 
-#word-ppt span {
+#git span {
 	width: 90%;
 }
 
-#teams-onenote-outlook span {
+#docker span {
 	width: 85%;
 }
 
-#excel-access span {
+#azure span {
 	width: 50%;
 }
 
