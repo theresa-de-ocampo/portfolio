@@ -18,6 +18,14 @@
 	display: flex;
 }
 
+#wakuli {
+    background-color: #68b0a5;
+}
+
+#svhq {
+	background-color: #ebc94a;
+}
+
 #loan-system {
 	background-color: #A9BCD0;
 }
@@ -86,7 +94,8 @@
 }
 
 #projects article .content p.description,
-#projects article .content p.colleague {
+#projects article .content p.colleague,
+#projects article .content p.highlight {
 	font-style: italic;
 }
 

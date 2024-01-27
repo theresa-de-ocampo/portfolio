@@ -8,7 +8,7 @@ $(function() {
 		animateOut: "fadeOut",
 		autoplay: true,
 		dots: true,
-		autoplayTimeout: 4000,
+		autoplayTimeout: 6000,
 		autoplayHoverPause: true
 	});
 
