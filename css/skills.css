@@ -109,31 +109,31 @@
 }
 
 #javascript span {
-	width: 95%;
+	width: 100%;
 }
 
 #php span {
-	width: 85%;
-}
-
-#python span {
 	width: 75%;
 }
 
+#python span {
+	width: 50%;
+}
+
 #react-nextjs span {
-	width: 88%;
+	width: 100%;
 }
 
 #nodejs-express span {
-	width: 70%;
+	width: 75%;
 }
 
 #laravel span {
-	width: 60%;
+	width: 50%;
 }
 
 #tailwind span {
-	width: 80%;
+	width: 100%;
 }
 
 #mobx-recoil span {
@@ -141,15 +141,15 @@
 }
 
 #chakra span {
-	width: 60%;
+	width: 50%;
 }
 
 #postgres span {
-	width: 80%;
+	width: 100%;
 }
 
 #mysql span {
-	width: 60%;
+	width: 75%;
 }
 
 #sqlite span {
@@ -157,11 +157,11 @@
 }
 
 #git span {
-	width: 90%;
+	width: 100%;
 }
 
 #docker span {
-	width: 85%;
+	width: 75%;
 }
 
 #azure span {
@@ -169,11 +169,11 @@
 }
 
 #capture span {
-	width: 85%;
+	width: 100%;
 }
 
 #photoshop span {
-	width: 60%;
+	width: 75%;
 }
 
 #premiere-pro span {
