@@ -10,10 +10,11 @@
 
 #skills .grid-wrapper {
 	display: grid;
-	grid-template-columns: 1fr 1fr;
 	grid-gap: 50px;
-	margin-left: 7vw;
-	margin-right: 7vw;
+	grid-template-columns: 1fr 1fr;
+	margin: 0 auto;
+    max-width: 1254px;
+    width: 80%;
 }
 
 #skills .grid-wrapper > div {
