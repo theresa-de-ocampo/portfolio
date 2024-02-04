@@ -13,8 +13,8 @@
 	grid-gap: 50px;
 	grid-template-columns: 1fr 1fr;
 	margin: 0 auto;
-    max-width: 1254px;
-    width: 80%;
+	max-width: 1254px;
+	width: 80%;
 }
 
 #skills .grid-wrapper > div {

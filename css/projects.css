@@ -12,7 +12,7 @@
 	box-shadow: 0 0 15px 15px rgba(0, 0, 0, 0.2);
 	margin: 0 auto;
 	width: 80%;
-    max-width: 1254px;
+	max-width: 1254px;
 }
 
 #projects article {
@@ -20,7 +20,7 @@
 }
 
 #wakuli {
-    background-color: #68b0a5;
+	background-color: #68b0a5;
 }
 
 #svhq {

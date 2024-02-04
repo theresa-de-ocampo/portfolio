@@ -10,7 +10,7 @@
 #name {
 	height: auto;
 	width: 30vw;
-    max-width: 384px;
+	max-width: 384px;
 }
 
 #name-pane .wrapper {
@@ -62,7 +62,7 @@ h1 {
 	justify-content: center;
 	position: relative;
 	width: 30vw;
-    max-width: 334px
+	max-width: 334px;
 }
 
 #profile-pic-pane img {
@@ -70,7 +70,7 @@ h1 {
 	padding: 25px;
 	width: inherit;
 	z-index: 5;
-    max-width: 384px
+	max-width: 384px;
 }
 
 #quote {

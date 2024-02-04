@@ -4,8 +4,8 @@
 	<meta charset="utf-8" />
 	<meta name="author" content="Theresa De Ocampo" />
 	<meta
-        name="description"
-        content="ePortolio of Maria Theresa G. De Ocampo - Full Stack JavaScript Developer" />
+		name="description"
+		content="ePortolio of Maria Theresa G. De Ocampo - Full Stack JavaScript Developer" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta property="og:title" content="Theresa De Ocampo" />
 	<meta property="og:type" content="website" />
