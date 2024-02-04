@@ -7,15 +7,24 @@
 }
 
 .owl-carousel {
-	margin: 0 auto;
-	width: 80vw;
-	box-shadow: 0 0 15px 15px rgba(0, 0, 0, 0.2);
 	background-color: #fdfbec;
 	border-radius: 5px;
+	box-shadow: 0 0 15px 15px rgba(0, 0, 0, 0.2);
+	margin: 0 auto;
+	width: 80%;
+	max-width: 1254px;
 }
 
 #projects article {
 	display: flex;
+}
+
+#wakuli {
+	background-color: #68b0a5;
+}
+
+#svhq {
+	background-color: #ebc94a;
 }
 
 #loan-system {
@@ -86,7 +95,8 @@
 }
 
 #projects article .content p.description,
-#projects article .content p.colleague {
+#projects article .content p.colleague,
+#projects article .content p.highlight {
 	font-style: italic;
 }
 

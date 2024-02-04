@@ -18,8 +18,6 @@ $("#personal-tags").on("mouseenter", function(e) {
 
 	let x = e.pageX - $personalTags.offset().left;
 	let y = e.pageY - $personalTags.offset().top;
-	console.log(x);
-	console.log(y);
 	
 
 	$ripple.css({

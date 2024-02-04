@@ -10,10 +10,11 @@
 
 #skills .grid-wrapper {
 	display: grid;
-	grid-template-columns: 1fr 1fr;
 	grid-gap: 50px;
-	margin-left: 7vw;
-	margin-right: 7vw;
+	grid-template-columns: 1fr 1fr;
+	margin: 0 auto;
+	max-width: 1254px;
+	width: 80%;
 }
 
 #skills .grid-wrapper > div {
@@ -108,72 +109,72 @@
 	border-radius: 10px;
 }
 
-#html span {
-	width: 95%;
-}
-
-#css span {
-	width: 90%;
-}
-
 #javascript span {
-	width: 85%;
+	width: 100%;
 }
 
-#php-c span {
-	width: 88%;
+#php span {
+	width: 75%;
 }
 
-#java-python span {
-	width: 70%;
+#python span {
+	width: 50%;
 }
 
-#cobol-c-sharp span {
-	width: 60%;
+#react-nextjs span {
+	width: 100%;
 }
 
-#jquery span {
-	width: 80%;
-}
-
-#chakra-react span {
+#nodejs-express span {
 	width: 75%;
 }
 
 #laravel span {
-	width: 60%;
-}
-
-#mysql span {
-	width: 80%;
-}
-
-#git span {
-	width: 60%;
-}
-
-#sql-server span {
 	width: 50%;
 }
 
-#word-ppt span {
-	width: 90%;
+#tailwind span {
+	width: 100%;
 }
 
-#teams-onenote-outlook span {
-	width: 85%;
+#mobx-recoil span {
+	width: 75%;
 }
 
-#excel-access span {
+#chakra span {
+	width: 50%;
+}
+
+#postgres span {
+	width: 100%;
+}
+
+#mysql span {
+	width: 75%;
+}
+
+#sqlite span {
+	width: 50%;
+}
+
+#git span {
+	width: 100%;
+}
+
+#docker span {
+	width: 75%;
+}
+
+#azure span {
 	width: 50%;
 }
 
 #capture span {
-	width: 85%;
+	width: 100%;
 }
 
 #photoshop span {
-	width: 60%;
+	width: 75%;
 }
 
 #premiere-pro span {
