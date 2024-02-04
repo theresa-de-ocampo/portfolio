@@ -7,11 +7,12 @@
 }
 
 .owl-carousel {
-	margin: 0 auto;
-	width: 80vw;
-	box-shadow: 0 0 15px 15px rgba(0, 0, 0, 0.2);
 	background-color: #fdfbec;
 	border-radius: 5px;
+	box-shadow: 0 0 15px 15px rgba(0, 0, 0, 0.2);
+	margin: 0 auto;
+	width: 80%;
+    max-width: 1254px;
 }
 
 #projects article {
