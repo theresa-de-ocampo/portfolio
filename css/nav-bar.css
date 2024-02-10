@@ -56,15 +56,15 @@ nav li:hover .border {
 	display: none;
 }
 
-.menu-button:hover {
+/* .menu-button:hover {
 	background-color: var(--california-gold);
-}
+} */
 
-.menu-button:hover .menu-lines,
+/* .menu-button:hover .menu-lines,
 .menu-button:hover .menu-lines::before,
 .menu-button:hover .menu-lines::after {
 	background-color: white;
-}
+} */
 
 .menu-lines,
 .menu-lines::before,
@@ -72,8 +72,8 @@ nav li:hover .border {
 	width: 30px;
 	height: 5px;
 	background-color: var(--california-gold);
-	border-radius: 5px;
-	box-shadow: 0 2px 5px gray;
+	border-radius: 2px;
+	/* box-shadow: 0 2px 5px gray; */
 	transition: all 0.5s ease-in-out;
 }
 
@@ -93,16 +93,16 @@ nav li:hover .border {
 }
 
 #check-menu:checked ~ label > .menu-lines {
-	transform: translateX(-50px);
+	/* transform: translateX(-50px); */
 	background-color: transparent;
 	box-shadow: none;
 }
 
 #check-menu:checked ~ label .menu-lines::before {
-	transform: rotate(45deg) translate(35px, -35px);
+	transform: rotate(45deg);
 	box-shadow: none;
 }
 
 #check-menu:checked ~ label .menu-lines::after {
-	transform: rotate(-45deg) translate(35px, 35px);
+	transform: rotate(-45deg);
 }

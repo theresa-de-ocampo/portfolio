@@ -173,7 +173,7 @@
 
 	nav ul {
 		background-image: linear-gradient(to bottom, var(--hawkes-blue), var(--california-gold));
-		box-shadow: -15px 10px 15px 5px rgba(0, 0, 0, 0.7);
+		box-shadow: -5px 5px 10px 8px rgba(0, 0, 0, 0.4);
 		height: calc(100vh - 50px);
 		margin-right: 0;
 		position: fixed;
@@ -181,7 +181,7 @@
 		top: 50px;
 		transition: all 0.5s;
 		width: 50%;
-		border: 1px dotted black;
+		/* border: 1px dotted black; */
 		border-radius: 10px 0 0 10px;
 	}
 
