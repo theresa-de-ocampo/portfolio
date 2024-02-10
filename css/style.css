@@ -5,89 +5,95 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
 
 :root {
-	--agean: #113855;
-	--aluminum: #838690;
-	--amber: #ffc107;
-	--black-pearl: #060c21;
-	--california-gold: #F59405;
-	--cerulean: #14B0BF;
-	--facebook: #087aea;
-	--goodreads: #4b3422;
-	--hawkes-blue: #d7e1ec;
-	--linkedin: #0a66c2;
-	--magic-mint: #94E6B7;
-	--papaya: #e24242;
-	--radical-red: #FC3764;
-	--saffron: #f5d23b;
-	--stackoverflow: #f48024;
-	--tall-poppy: #b2272b;
-	--yahoo: #6001d2;
-	--yellow-green: #8ec832;
+    --agean: #113855;
+    --aluminum: #838690;
+    --amber: #ffc107;
+    --black-pearl: #060c21;
+    --california-gold: #f59405;
+    --cerulean: #14b0bf;
+    --facebook: #087aea;
+    --goodreads: #4b3422;
+    --hawkes-blue: #d7e1ec;
+    --linkedin: #0a66c2;
+    --magic-mint: #94e6b7;
+    --papaya: #e24242;
+    --radical-red: #fc3764;
+    --saffron: #f5d23b;
+    --stackoverflow: #f48024;
+    --tall-poppy: #b2272b;
+    --yahoo: #6001d2;
+    --yellow-green: #8ec832;
 }
 
 * {
-	box-sizing: border-box;
-	padding: 0;
-	margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 
 html {
-	scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
 body {
-	font-family: "Century Gothic", sans-serif;
+    font-family: "Century Gothic", sans-serif;
 }
 
 section {
-	padding-top: 50px;
+    padding-top: 50px;
 }
 
 section:not(#projects) {
-	min-height: 100vh;
+    min-height: 100vh;
 }
 
 section:not(#home) {
-	padding-bottom: 100px;
+    padding-bottom: 100px;
 }
 
 h2 {
-	font-family: "Amatic SC";
-	font-weight: bold;
-	font-size: clamp(18px, 3rem, 70px);
-	margin: 30px 0;
-	text-align: center;
-	text-transform: uppercase;
+    font-family: "Amatic SC";
+    font-weight: bold;
+    font-size: clamp(18px, 3rem, 70px);
+    margin: 30px 0;
+    text-align: center;
+    text-transform: uppercase;
 }
 
 h3 {
-	font-size: 18px;
+    font-size: 18px;
 }
 
 h4 {
-	font-size: 16px;
+    font-size: 16px;
 }
 
-h3, h4 {
-	font-family: Lato, sans-serif;
+h3,
+h4 {
+    font-family: Lato, sans-serif;
 }
 
 p {
-	font-size: 16px;
-	font-family: "Century Gothic", sans-serif;
+    font-size: 16px;
+    font-family: "Century Gothic", sans-serif;
 }
 
 a {
-	text-decoration: none;
+    text-decoration: none;
 }
 
 hr {
-	border: 0;
-	height: 1px;
-	background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
-	margin: 5px 0;
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0),
+        rgba(0, 0, 0, 0.75),
+        rgba(0, 0, 0, 0)
+    );
+    margin: 5px 0;
 }
 
 .new-line {
-	display: block;
+    display: block;
 }
