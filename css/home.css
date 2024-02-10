@@ -75,6 +75,9 @@ h1 {
 
 #quote {
 	display: none;
+	height: auto;
+	width: 30vw;
+	max-width: 384px;
 }
 
 #profile-pic-pane span:nth-child(1) {
