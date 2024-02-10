@@ -172,17 +172,16 @@
 	}
 
 	nav ul {
-		background-image: linear-gradient(to bottom, var(--hawkes-blue), var(--california-gold));
-		box-shadow: -5px 5px 10px 8px rgba(0, 0, 0, 0.4);
+        background-image: radial-gradient(circle at 52% 84%, rgba(194, 194, 194,0.06) 0%, rgba(194, 194, 194,0.06) 18%,transparent 18%, transparent 100%),radial-gradient(circle at 38% 97%, rgba(239, 239, 239,0.06) 0%, rgba(239, 239, 239,0.06) 20%,transparent 20%, transparent 100%),radial-gradient(circle at 86% 17%, rgba(210, 210, 210,0.06) 0%, rgba(210, 210, 210,0.06) 61%,transparent 61%, transparent 100%),radial-gradient(circle at 6% 48%, rgba(91, 91, 91,0.06) 0%, rgba(91, 91, 91,0.06) 27%,transparent 27%, transparent 100%),radial-gradient(circle at 27% 63%, rgba(86, 86, 86,0.06) 0%, rgba(86, 86, 86,0.06) 30%,transparent 30%, transparent 100%),radial-gradient(circle at 2% 91%, rgba(182, 182, 182,0.06) 0%, rgba(182, 182, 182,0.06) 29%,transparent 29%, transparent 100%),linear-gradient(354deg, rgb(245,148,5),rgb(215,225,236));
+        /* background-image: radial-gradient(circle at 52% 84%, rgba(194, 194, 194,0.06) 0%, rgba(194, 194, 194,0.06) 18%,transparent 18%, transparent 100%),radial-gradient(circle at 38% 97%, rgba(239, 239, 239,0.06) 0%, rgba(239, 239, 239,0.06) 20%,transparent 20%, transparent 100%),radial-gradient(circle at 86% 17%, rgba(210, 210, 210,0.06) 0%, rgba(210, 210, 210,0.06) 61%,transparent 61%, transparent 100%),radial-gradient(circle at 6% 48%, rgba(91, 91, 91,0.06) 0%, rgba(91, 91, 91,0.06) 27%,transparent 27%, transparent 100%),radial-gradient(circle at 27% 63%, rgba(86, 86, 86,0.06) 0%, rgba(86, 86, 86,0.06) 30%,transparent 30%, transparent 100%),radial-gradient(circle at 2% 91%, rgba(182, 182, 182,0.06) 0%, rgba(182, 182, 182,0.06) 29%,transparent 29%, transparent 100%),linear-gradient(90deg, rgb(203, 171, 120),rgb(215,225,236)); */
+		border-style: inset hidden hidden hidden;
 		height: calc(100vh - 50px);
 		margin-right: 0;
 		position: fixed;
 		right: -100%;
 		top: 50px;
 		transition: all 0.5s;
-		width: 50%;
-		/* border: 1px dotted black; */
-		border-radius: 10px 0 0 10px;
+		width: 100%;
 	}
 
 	nav ul li {
@@ -192,12 +191,13 @@
 	}
 
 	nav ul li a {
-		padding: 7px 25px;
-		font-weight: bold;
-		font-size: 30px;
 		border-radius: 	10px;
-		transition: 0.5s;
 		color: black;
+		font-size: 30px;
+		font-weight: bold;
+		transition: 0.5s;
+		display: inline-block;
+		width: 150px;
 	}
 
 	nav .border {
@@ -205,8 +205,7 @@
 	}
 
 	nav ul li a:hover {
-		background-color: black;
-		color: white;
+		background-color: rgba(255, 255, 255, 0.4);
 	}
 
 	#check-menu:checked ~ ul {
@@ -298,14 +297,6 @@
 }
 
 @media screen and (max-width: 481px) {
-	nav ul {
-		width: 100%;
-		box-shadow: none;
-		border: none;
-		border-top: 1px dotted black;
-		border-radius: 0;
-	}
-
 	#profile-pic-pane {
 		width: 70vw;
 	}
